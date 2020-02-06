@@ -1,0 +1,20 @@
+{
+  "name": "machikoro",
+  "version": "1.0.0",
+  "description": "Implementation of Machikoro board game for fun",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/Application.js",
+    "build": "rm -r dist/*; tsc"
+  },
+  "author": "Matthew Lou-Magnuson",
+  "license": "MIT",
+  "dependencies": {
+    "ci": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0"
+  }
+}
